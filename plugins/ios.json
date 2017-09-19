@@ -24,7 +24,17 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_IOS": "AIzaSyD7OVEfIqd0OV4gN5f7jX2rcuTUWGRpKLk",
+            "LOCATION_WHEN_IN_USE_DESCRIPTION": "Show your location on the map",
+            "LOCATION_ALWAYS_USAGE_DESCRIPTION": "Trace your location on the map",
+            "PACKAGE_NAME": "io.ionic.starter"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        }
+    }
 }
